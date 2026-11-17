@@ -54,3 +54,6 @@ pip install streamlit matplotlib
 
 # Launch the interactive application
 streamlit run app.py
+
+# Watch my app which is deployed on streamlit community
+https://ai--water-jug-problem-xpmeq53p3dyk9kwiba4dnn.streamlit.app/
