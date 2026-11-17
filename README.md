@@ -1,11 +1,13 @@
-Interactive N-Bucket Water Transfer Solver (Heuristic DFS & Barycentric Mapping)An interactive state-space puzzle and AI solver built in Python that generalizes the classic Water Jug Problem to N buckets. The application combines Heuristic Depth-First Search (DFS) with 2D Barycentric Coordinate Mapping to validate user moves, solve state transitions, and visualize variable trajectories in real time.
+Interactive N-Bucket Water Transfer Solver (Heuristic DFS & Barycentric Mapping)
+
+An interactive state-space puzzle and AI solver built in Python that generalizes the classic Water Jug Problem to N buckets. The application combines Heuristic Depth-First Search (DFS) with 2D Barycentric Coordinate Mapping to validate user moves, solve state transitions, and visualize variable trajectories in real time.
 
 Project Structure
 ├── solver_engine.py   # Backend: Puzzle generation, transfer rules, Barycentric math & Heuristic DFS
 ├── app.py             # Frontend: Interactive Streamlit UI, live variable inspector & Matplotlib plotting
 └── README.md          # Project documentation
 
-
+Files Involved
 solver_engine.py (Backend): Handles randomized solvable puzzle initialization, strict transfer-rule validation, barycentric coordinate normalization, and the heuristic-guided DFS solver.
 app.py (Frontend): Manages user inputs ($N$ buckets, start trigger, move execution), synchronizes live backend state variables via st.session_state, and renders the 2D state trajectory using Matplotlib.
 
